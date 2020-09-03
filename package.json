@@ -1,0 +1,11 @@
+{
+    "name": "Incarnate Bot",
+    "version": "1.0.0",
+    "description": "Bot for <Incarnate>.  Helps with recruitment, mostly.",
+    "main": "bot.js",
+    "author": "Omegix#0624",
+    "prefix": "!",
+    "dependencies": {
+        "discord.js": "^11.5.1"
+    }
+}
