@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const auth = require('./auth.json');
+//const auth = require('./auth.json');
 const config = require('./package.json');
 
 client.on('ready', () => {
@@ -35,4 +35,4 @@ async function makeChannel(message, embed, name) {
   .catch(console.error);
 }
 
-client.login(auth.token);
+client.login(process.env.BOT_TOKEN);
