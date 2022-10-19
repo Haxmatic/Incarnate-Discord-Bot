@@ -1,5 +1,5 @@
 {
-    "name": "Incarnate Bot",
+    "name": "Incarnate-Discord-Bot",
     "version": "1.0.0",
     "description": "Bot for <Incarnate>.  Helps with recruitment, mostly.",
     "main": "bot.js",
